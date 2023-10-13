@@ -1,0 +1,16 @@
+PODS:
+  - FLModuleSpec (0.1.0)
+
+DEPENDENCIES:
+  - FLModuleSpec (from `../`)
+
+EXTERNAL SOURCES:
+  FLModuleSpec:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FLModuleSpec: 2e200af1f8f397eb65ccf48ebaf7e94d38d92709
+
+PODFILE CHECKSUM: 8da61cb126b6e14aaa294231d84e5b66fc4993e9
+
+COCOAPODS: 1.9.3

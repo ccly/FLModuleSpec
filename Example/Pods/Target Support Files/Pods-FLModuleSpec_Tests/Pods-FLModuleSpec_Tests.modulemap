@@ -1,0 +1,6 @@
+framework module Pods_FLModuleSpec_Tests {
+  umbrella header "Pods-FLModuleSpec_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
