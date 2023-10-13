@@ -28,9 +28,19 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/ccly/FLModuleSpec.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'FLModuleSpec/Classes/**/*'
+  
+  s.user_target_xcconfig = {
+      'GENERATE_INFOPLIST_FILE' => 'YES'
+  }
+
+  s.pod_target_xcconfig = {
+      'GENERATE_INFOPLIST_FILE' => 'YES'
+  }
+
+
   
   # s.resource_bundles = {
   #   'FLModuleSpec' => ['FLModuleSpec/Assets/*.png']
