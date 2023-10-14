@@ -13,9 +13,7 @@
 		4359D9A08E2EB170056F5FFB35494363 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		4D24AA132843171C91C7A74379EFD182 /* Pods-FLModuleSpec_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DD1870CB8524CD70E00D20A8071DCA /* Pods-FLModuleSpec_Tests-dummy.m */; };
 		8F8F0207862B5ACFA4C3197A89863E0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		9F836E04A912B6D4A4D5A3E5D710D73A /* FLNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E9726CA33984CEF9E63890644CEE3E /* FLNetworking.m */; };
 		B510CD54C3CBD280BC7741CE14567934 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		CBD6B4BC5462A46874407C25EF83DD1D /* FLNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D39BAF7AC7F05077BDACFFBDE77DE415 /* FLNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FAA2B1D34342F94ED90D66E2DE0C8040 /* FLModuleSpec-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6CC84337065C067B6FAA70A267F7A4 /* FLModuleSpec-dummy.m */; };
 		FD2E73BC5F057A47802AD09F5AE0CA01 /* Pods-FLModuleSpec_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 259D351044D7095DE041AD5002AA9BA7 /* Pods-FLModuleSpec_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -40,8 +38,8 @@
 /* Begin PBXFileReference section */
 		02C7F60CEF4F7C16935284EF199C295A /* Pods-FLModuleSpec_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FLModuleSpec_Tests.modulemap"; sourceTree = "<group>"; };
 		09CB6AC863B92BEBC13CE2485F7C2C71 /* Pods-FLModuleSpec_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FLModuleSpec_Example.modulemap"; sourceTree = "<group>"; };
-		125C054A8A96071BD105AAECC4B59F8B /* FLModuleSpec.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FLModuleSpec.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		14D38A718875EF1AF51384998C8CE590 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		125C054A8A96071BD105AAECC4B59F8B /* FLModuleSpec.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FLModuleSpec.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		14D38A718875EF1AF51384998C8CE590 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		259D351044D7095DE041AD5002AA9BA7 /* Pods-FLModuleSpec_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FLModuleSpec_Example-umbrella.h"; sourceTree = "<group>"; };
 		2C1B873F7410E2A56C3BD83657BBDD2D /* Pods-FLModuleSpec_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FLModuleSpec_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2EB2EC6DB53555A0A08E177FC6D5553B /* FLModuleSpec.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLModuleSpec.debug.xcconfig; sourceTree = "<group>"; };
@@ -49,26 +47,24 @@
 		3143164A4515EE2E3A1C82DF64547B84 /* Pods-FLModuleSpec_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLModuleSpec_Example.release.xcconfig"; sourceTree = "<group>"; };
 		35A81CD627A4A6CC0CB74EF41DE7BA2D /* FLModuleSpec-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLModuleSpec-umbrella.h"; sourceTree = "<group>"; };
 		36A1569573F559216EC42B27BDA30820 /* FLModuleSpec-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLModuleSpec-prefix.pch"; sourceTree = "<group>"; };
-		3C3C4E76CEA3BBE3DD8CEF529F854694 /* Pods_FLModuleSpec_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FLModuleSpec_Tests.framework; path = "Pods-FLModuleSpec_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4714CE14A62A525F58B7BAB7A1E39377 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3C3C4E76CEA3BBE3DD8CEF529F854694 /* Pods_FLModuleSpec_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLModuleSpec_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4714CE14A62A525F58B7BAB7A1E39377 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4B9E2592D1471AB413B483C11D6F7D0C /* Pods-FLModuleSpec_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLModuleSpec_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		54E9726CA33984CEF9E63890644CEE3E /* FLNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLNetworking.m; path = FLModuleSpec/Classes/FLNetworking.m; sourceTree = "<group>"; };
 		5846FA4B3558E7F260DF6759587417F9 /* Pods-FLModuleSpec_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLModuleSpec_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		59F828029D2A48B34A5F97115CF8994E /* Pods-FLModuleSpec_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FLModuleSpec_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6F0A9EA67E55FB7EF0FCD7C960F351B9 /* Pods-FLModuleSpec_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLModuleSpec_Tests-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		75C7E9F454267D3C677350754CEBBD8F /* FLModuleSpec-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FLModuleSpec-Info.plist"; sourceTree = "<group>"; };
 		8342F92BBF1ECB43CBF2A575F0FA4A2A /* Pods-FLModuleSpec_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FLModuleSpec_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8A46201B95C0B89B8CA7D7A609664E42 /* Pods_FLModuleSpec_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FLModuleSpec_Example.framework; path = "Pods-FLModuleSpec_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A46201B95C0B89B8CA7D7A609664E42 /* Pods_FLModuleSpec_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLModuleSpec_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F01CDBF91D11BC9E54EA65BE2F8C98D /* FLModuleSpec.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FLModuleSpec.modulemap; sourceTree = "<group>"; };
 		93BEAF3B3A1BE80AF4F16A488A7CFE8D /* Pods-FLModuleSpec_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLModuleSpec_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		948D09166AD8C90106612C0691E51690 /* Pods-FLModuleSpec_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FLModuleSpec_Example-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1B61C14405CB7A379F27842C6263D55 /* FLModuleSpec.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FLModuleSpec.framework; path = FLModuleSpec.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1B61C14405CB7A379F27842C6263D55 /* FLModuleSpec.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLModuleSpec.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA0936EE6A4FD83959FF85E846961309 /* FLModuleSpec.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLModuleSpec.release.xcconfig; sourceTree = "<group>"; };
 		C06A41CEFBDBA2E78D4BDC45167C9B9C /* Pods-FLModuleSpec_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLModuleSpec_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C1DD1870CB8524CD70E00D20A8071DCA /* Pods-FLModuleSpec_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FLModuleSpec_Tests-dummy.m"; sourceTree = "<group>"; };
-		D39BAF7AC7F05077BDACFFBDE77DE415 /* FLNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLNetworking.h; path = FLModuleSpec/Classes/FLNetworking.h; sourceTree = "<group>"; };
 		DB6CC84337065C067B6FAA70A267F7A4 /* FLModuleSpec-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLModuleSpec-dummy.m"; sourceTree = "<group>"; };
 		EEC6C75F27028DED0593F7FF5505A05D /* Pods-FLModuleSpec_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLModuleSpec_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F9C08FEEF68C20E9897DB88B712B1126 /* Pods-FLModuleSpec_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLModuleSpec_Example-Info.plist"; sourceTree = "<group>"; };
@@ -138,8 +134,6 @@
 		29440D1FBAC15B7403A9EA593BAE5FD8 /* FLModuleSpec */ = {
 			isa = PBXGroup;
 			children = (
-				D39BAF7AC7F05077BDACFFBDE77DE415 /* FLNetworking.h */,
-				54E9726CA33984CEF9E63890644CEE3E /* FLNetworking.m */,
 				1F2F65ADC1E1ED3152B4196169AE3ED8 /* Pod */,
 				1A5CD29F4919448FB898793C2A97D850 /* Support Files */,
 			);
@@ -250,7 +244,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				24EA498996E0125B17AEC0353B181AFE /* FLModuleSpec-umbrella.h in Headers */,
-				CBD6B4BC5462A46874407C25EF83DD1D /* FLNetworking.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,7 +381,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAA2B1D34342F94ED90D66E2DE0C8040 /* FLModuleSpec-dummy.m in Sources */,
-				9F836E04A912B6D4A4D5A3E5D710D73A /* FLNetworking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -661,8 +653,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
